@@ -18,4 +18,8 @@ public class EtudeBook {
 	public int size() {
 		return etudeBook.size();
 	}
+	
+	public Etude get(int e) {
+		return etudeBook.get(e);
+	}
 }
