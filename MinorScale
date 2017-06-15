@@ -1,0 +1,20 @@
+package yourCode;
+
+public class MinorScale {
+	private String name;
+	private String notes;
+	
+	public MinorScale(String data) {
+		String[] parts = data.split("/");
+		name = parts[0];
+		notes = parts[1];
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public String toString() {
+		return notes;
+	}
+}
