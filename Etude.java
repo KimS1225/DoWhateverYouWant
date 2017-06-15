@@ -27,4 +27,8 @@ public class Etude {
 	public String getTitle() {
 		return title;
 	}
+	
+	public String toString() {
+		return rank + "\t" + composer + "\t" + title;
+	}
 }
