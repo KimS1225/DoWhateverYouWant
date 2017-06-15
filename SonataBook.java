@@ -1,6 +1,5 @@
 package yourCode;
 import java.util.*;
-import java.io.*;
 
 public class SonataBook {
 	
@@ -16,5 +15,9 @@ public class SonataBook {
 	
 	public int size() {
 		return sonataBook.size();
+	}
+	
+	public Sonata get(int e) {
+		return sonataBook.get(e);
 	}
 }
