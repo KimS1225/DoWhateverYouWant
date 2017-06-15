@@ -1,6 +1,6 @@
 package yourCode;
 import java.util.*;
-import java.io.*;
+
 public class ConcertoBook {
 
 	ArrayList<Concerto> concertoBook;
@@ -15,5 +15,9 @@ public class ConcertoBook {
 	
 	public int size() {
 		return concertoBook.size();
+	}
+	
+	public Concerto get(int e) {
+		return concertoBook.get(e);
 	}
 }
