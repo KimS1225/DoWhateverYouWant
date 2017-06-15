@@ -1,0 +1,27 @@
+package yourCode;
+
+import java.util.*;
+
+public class MajorScaleBook {
+	
+	ArrayList<MajorScale> majorScaleBook;
+	
+	public MajorScaleBook(Scanner in) {
+		majorScaleBook = new ArrayList<MajorScale>();
+		while(in.hasNextLine()) {
+			majorScaleBook.add(new MajorScale(in.nextLine().trim()));
+		}
+	}
+	
+	public int size() {
+		return majorScaleBook.size();
+	}
+	
+	public MajorScale get(int element) {
+		return majorScaleBook.get(element);
+	}
+	
+	public int indexOf(String args) {
+		return majorScaleBook.indexOf(args);
+	}
+}
